@@ -1,0 +1,5 @@
+Installation: Drag'N drop the SyntaxAutomation.py to your Mewt folder
+
+How to use: Launch SyntaxAutomation.py
+
+What if I get an error?: Contact mifaska
