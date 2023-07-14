@@ -1,4 +1,4 @@
-# Most of the code made by Java#9999 -  Modified by mifaska (I mainly removed the logger part java did, I could just steal Ruby's one because it looks 1 to 1 like it
+# Most of the code made by Java#9999 -  Modified by mifaska (I mainly removed the logger part java did, I could just steal Ruby's one because it looks 1 to 1 like mine
 
 import pip 
 try:
