@@ -402,7 +402,7 @@ async def on_ready():
     os.system("cls" if os.name == "nt" else "clear")
 
     print("Syntax Extension is now running in background!")
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="!info"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="+info"))
     print(f"Logged in as bot: {bot.user.name}")
 
     cookies = settings["AUTHENTICATION"]["COOKIES"]
