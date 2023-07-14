@@ -1,6 +1,6 @@
 # SyntaxAutomation by mifaska
 
-## v. 1.0.0
+## v. 1.0.1
 
 ## Use at your own risk, I removed Java's logger and changed a lil bit from RubyAutomation, I combined RubyAutomation and JavaAutomation so it may destroy your python or smthmg else
 
