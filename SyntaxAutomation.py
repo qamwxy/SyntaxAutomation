@@ -446,7 +446,7 @@ async def prefix(ctx, new_prefix: str):
     await bot.change_presence(activity=Game(name=f"{new_prefix}info"))
     embed = discord.Embed(
         title="Prefix Update",
-        description=f"```Successfully changed the command prefix to: {new_prefix}```\n \nNote that for a better user experience the prefix dosen't save, so if you close the sniper the prefix will go back to !",
+        description=f"```Successfully changed the command prefix to: {new_prefix} :3.```\n \nNote that for a better user experience the prefix dosen't save, so if you close the sniper the prefix will go back to + :3.",
         color=discord.Color.from_rgb(255, 182, 193)
     )
     await ctx.send(embed=embed)
@@ -460,7 +460,7 @@ async def screenshot(ctx):
         from PIL import ImageGrab
         screenshot = ImageGrab.grab()
     except ImportError:
-        await ctx.send("Failed to capture screenshot. Please make sure you have the Pillow library installed.")
+        await ctx.send("Failed to capture screenshot?!? Please make sure you have the Pillow library installed :3.")
         return
 
     # Convert the image to bytes
@@ -482,7 +482,7 @@ async def screenshot(ctx):
         try:
             await ctx.send(file=file, embed=embed)
         except discord.HTTPException:
-            await ctx.send("Failed to send the screenshot to the webhook.")
+            await ctx.send("FaIlEd To SeNd ThE sCrEeNsHoT tO tHe WeBhOoK :0.")
 
 #webhook command
 @bot.command() 
@@ -503,7 +503,7 @@ async def webhook(ctx, webhook_url: str):
     
     embed = discord.Embed(
         title="Success!",
-        description=" ``` This webhook has been succesfully set and will be used for the next notifications! ```",
+        description=" ``` This webhook has been succesfully set and will be used for the next notifications :3 !1! ```",
         color=discord.Color.from_rgb(255, 182, 193)
     )
 
@@ -521,13 +521,13 @@ async def webhook(ctx, webhook_url: str):
             },
         ) as response:
             if response.status != 204:
-                await ctx.send(f"Failed to send the embed to the webhook. HTTP status: {response.status}")
+                await ctx.send(f"FaIlEd To SeNd ThE eMbEd To ThE wEbHoOk bruh, HTTP status: {response.status}")
                 return
             
             if await restart_main_py():
-               print("Succesfully restarted mewt after updating the webhook")
+               print("Succesfully restarted mewt after updating the webhook :3!")
             else:
-               print("Error while trying to restart mewt after updating the webhook.")
+               print("ErRoR wHiLe TrYiNg To ReStArT mEwT aFtEr UpDaTiNg ThE wEbHoOk.")
 
 
 #ping
@@ -541,7 +541,7 @@ async def ping(ctx):
 @is_owner()
 async def onlyfree(ctx, status: str):
     if status.lower() not in ['on', 'off']:
-        embed = Embed(title='Error', description='```Please use !onlyfree on or !onlyfree off```', color=Colour.from_rgb(255, 0, 0))
+        embed = Embed(title='Error', description='```Please use !onlyfree on or !onlyfree off !1!1!!!1!!```', color=Colour.from_rgb(255, 0, 0))
         await ctx.send(embed=embed)
         return
 
@@ -552,10 +552,10 @@ async def onlyfree(ctx, status: str):
     
     if status.lower() == 'on':
         settings['MISC']['WATCHER']['ONLY_FREE'] = True
-        description = 'Mewt sniper will now only snipe free items. Run !onlyfree off to deactivate this setting.'
+        description = 'Mewt sniper will now only snipe free items :3. Run !onlyfree off to deactivate this setting!'
     else:
         settings['MISC']['WATCHER']['ONLY_FREE'] = False
-        description = 'Mewt sniper will now snipe paid items too. Run !onlyfree on to activate this setting.'
+        description = 'Mewt sniper will now snipe paid items too :0 Run !onlyfree on to activate this setting!'
 
     
     with open('settings.json', 'w') as f:
@@ -567,7 +567,7 @@ async def onlyfree(ctx, status: str):
     if await restart_main_py():
             print("Succesfully restarted mewt after updating the onlyfree option")
     else:
-            print("Error while trying to restart mewt after updating the onlyfree option.")
+            print("Error while trying to restart mewt after updating the onlyfree option, HuH?!?!")
 
 #speed command
 @bot.command(name='speed')  
