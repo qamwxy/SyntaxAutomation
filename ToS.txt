@@ -1,0 +1,8 @@
+1. Do not give this Extension as yours
+2. We DON'T take any responsibility for damage to your pc if you changed something (like added random symbols to SyntaxAutomation.py or tried to fix bug yourself)
+3. We DON'T take any responsibility for damage to your pc if you use Python version under 3.11.2 (look at README.md at github, we will edit it if we tested our Extension on an other version)
+4. We DON'T take any responsibility for damage to your pc if you used untested OS (look at README.md at github we will edit it if we tested our Extension on an other OS)
+5. You're allowed to view the code, take parts of it and paste into your own codes or share it without any permission
+6. You're allowed to remake the code without any permission
+7. We DON'T take any responsibility for ANYTHINGif you haven't read this file
+8. If you got an error you should contact mifaska (optinally, but if you try to fix it yourself we don't take any responsibility)
