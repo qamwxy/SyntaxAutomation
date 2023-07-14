@@ -1,2 +1,9 @@
-# SyntaxAutomation
-Remake of RubyAutomation and JavaAutomation for Mewt
+# SyntaxAutomation by mifaska
+
+## v. 0.0.1
+
+
+Supports Python 3.11.2+ (tested on 3.11.2 and 3.11.4)
+Supports OS: Kali Linux (currently it's the only OS i tested it on)
+
+Credits to: RubyAutomation, JavaAutomation
