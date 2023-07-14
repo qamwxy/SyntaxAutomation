@@ -1,6 +1,6 @@
 # SyntaxAutomation by mifaska
 
-## v. 0.0.1
+## v. 1
 
 
 Supports Python 3.11.2+ (tested on 3.11.2 and 3.11.4)
