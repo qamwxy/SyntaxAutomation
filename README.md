@@ -1,3 +1,9 @@
+# Closed for 12h+ or permanently
+
+
+
+
+
 # SyntaxAutomation by mifaska
 
 ## v. 1.0.1
